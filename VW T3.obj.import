@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/VW T3.obj-097286138d4f291de3e8041ebc27e478.mesh"
+
+[deps]
+
+files=[ "res://.import/VW T3.obj-097286138d4f291de3e8041ebc27e478.mesh" ]
+
+source_file="res://VW T3.obj"
+dest_files=[ "res://.import/VW T3.obj-097286138d4f291de3e8041ebc27e478.mesh", "res://.import/VW T3.obj-097286138d4f291de3e8041ebc27e478.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
