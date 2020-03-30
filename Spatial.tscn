@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://Car.gd" type="Script" id=1]
 [ext_resource path="res://Spatial.gd" type="Script" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://Colors/BrownWhite.png" type="Texture" id=9]
 [ext_resource path="res://Colors/RedWhite.png" type="Texture" id=10]
 [ext_resource path="res://Label.gd" type="Script" id=11]
+[ext_resource path="res://px_sans_nouveaux.ttf" type="DynamicFontData" id=12]
 
 [sub_resource type="SpatialMaterial" id=1]
 
@@ -57,6 +58,10 @@ background_color = Color( 0.337255, 0.337255, 0.337255, 1 )
 shader = ExtResource( 8 )
 shader_param/size_x = 0.006
 shader_param/size_y = 0.006
+
+[sub_resource type="DynamicFont" id=17]
+size = 30
+font_data = ExtResource( 12 )
 
 [node name="Spatial" type="Spatial"]
 script = ExtResource( 2 )
@@ -208,10 +213,10 @@ __meta__ = {
 }
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Control"]
-margin_left = 34.0
-margin_top = 320.0
-margin_right = 263.0
-margin_bottom = 601.0
+margin_left = -1.0
+margin_top = 241.0
+margin_right = 295.0
+margin_bottom = 522.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -226,8 +231,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -83.0
-margin_top = -69.0
+margin_left = -400.774
+margin_top = -103.481
+margin_right = -238.774
+margin_bottom = 6.51855
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -237,6 +244,7 @@ margin_left = 26.0
 margin_top = 27.0
 margin_right = 57.0
 margin_bottom = 41.0
+custom_fonts/font = SubResource( 17 )
 text = "Cena"
 script = ExtResource( 11 )
 [connection signal="item_selected" from="Control/SeatsButton" to="." method="_on_SeatsButton_item_selected"]

@@ -7,7 +7,7 @@ var checkbox_tscn = preload ("res://CheckBox.tscn")
 var cena_komb = [[29540,29605,29937],[30700,30765,30765],[26920,26985,27317],[28270,28335,28667],
 [28320,28320,28717],[29850,29915,30247],[31100,31100,31497],[34480,34545,34877]]
 
-var doplnky = [["nazev1",100],["nazev2",200],["nazev3",300]]
+var doplnky = [["Vyhřívané sedadlo řidiče",249],["Posilovač řízení",1776],["Sedadla řidiče a spolujezdce s opěrkami",473],["Dvojité sedadlo pro spolujezdce",332],["Kontrolka duálního okruhu a ruční brzdy",67],["Kryt zavazadlového prostoru",473],["Otočné sedadlo spolujezdce",243]]
 
 var motor = 0
 var pocet_mist = 0

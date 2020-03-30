@@ -15,4 +15,4 @@ func _ready():
 #func _process(delta):
 #	pass
 func zmena_ceny ():
-	set_text(String(Global.cena_motor_a_pocet_mist+Global.cena))
+	set_text("Cena: "+String(Global.cena_motor_a_pocet_mist+Global.cena)+" DM")
